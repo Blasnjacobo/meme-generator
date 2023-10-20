@@ -1,0 +1,51 @@
+/*
+    WHEN USING FLEX & FLEX-DIRECTION IS NOT SET
+    HORIZONTAL
+
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    VERTICAL
+     
+    align-items:
+    start, center, end
+
+    IF SET-DIRECTION IS SET COLUMN
+
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header-class{
+    box-sizing: border-box;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+}
+
+.meme-logo-title{
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    line-height: normal;
+    align-items: center;
+    font-family: Karla;
+    font-weight: 700;
+}
+
+.meme-logo{
+    width: 32px;
+    height: 27px;
+}
+
+.header-description{
+    margin-right: 50px;
+    font-size: 18px;
+}
